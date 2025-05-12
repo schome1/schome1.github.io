@@ -1,19 +1,108 @@
-    <html>
-    <head>
-      <meta charset='utf-8'>
-      <meta name='viewport' content='width=device-width'>
-      <title>Privacy Policy</title>
-      <style> body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:1em; } </style>
-    </head>
-    <body>
-    <p>
-    <strong>Flight Commander iOS App Contact</strong> 
-    <a href="mailto:support@schometech.com" target="_blank" style="color: inherit; text-decoration: none;">support@schometech.com</a>
-    </p>
-    <p>
-    <strong>Flight Commander iOS App Privacy Policy</strong> 
-    <a href="https://schome1.github.io/apps/flightcommander/flightcommander-privacy-policy.html" target="_blank" style="color: inherit; text-decoration: none;">Flight Commander iOS App Privacy Policy</a>
-    </p>
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Commander - Contact & Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #333;
+            color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+            padding: 5px 0;
+        }
+        .info strong {
+            flex: 1 0 40%;
+            text-align: right;
+            margin-right: 10px;
+        }
+        .info a {
+            flex: 1 0 50%;
+            text-align: left;
+            color: #00bfff;
+            text-decoration: none;
+            word-break: break-word;
+        }
+        .info a:hover {
+            text-decoration: underline;
+        }
+        .app-image {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 20px;
+        }
+        @media (max-width: 480px) {
+            .info {
+                flex-direction: column;
+                align-items: flex-start;
+                text-align: left;
+            }
+            .info strong {
+                text-align: left;
+                margin: 5px 0;
+            }
+            .info a {
+                text-align: left;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+      <img src="./img/flightcommander.png" alt="Flight Commander App" class="app-image">
+      <h1>Flight Commander</h1>
+      <div class="info">
+          <strong>Contact:</strong> <a href="mailto:mpschommer@icloud.com">mpschommer@icloud.com</a>
+      </div>
+      <div class="info">
+        <strong>App Store:</strong> <a href="https://apps.apple.com/us/app/flight-commander/id1552651926">Download Flight Commander App</a>
+      </div>
+      <div class="info">
+        <strong>App Manual:</strong> <a href="./doc/flightcommander-manual.pdf">Download Flight Commander Manual</a>
+      </div>
+      <div class="info">
+          <strong>Privacy Policy:</strong> <a href="./doc/flightcommander-privacy-policy.pdf">Download Flight Commander Privacy Policy</a>
+      </div>
       
+      <hr style="border: 0; height: 1px; background: #555; margin: 20px 0;">
+
+      <div class="info">
+        <div class="bmc-inline-widget">
+          <p>☕ Love the app? Buy me a coffee to fuel more updates!</p>
+          <a href="https://www.buymeacoffee.com/schome1" target="_blank">
+            <img 
+              src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
+              alt="Buy Me A Coffee" 
+              style="height: 45px; width: 162px; border-radius: 8px;">
+          </a>
+        </div>
+      </div>      
+    </div>
+  </div>
+</body>
+</html>
